@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang = "en">
-   <head></head>
+   <head>
+      <meta charset="utf-8">
+      <title>Animated Login Form | CodingNepal</title>
+      <link rel="stylesheet" type="text/css" href="{{url_for('static',filename="css/style.css")}}">
+    </head>
    <body>
       <h3>user</h3>
+      <div class="center">
       
       <table>
          <thead>
             <tr>
                <th>Username</th>
-               <th>pswd</th>
+               <th>password</th>
+               <th>Email</th>
+               <th>Option</th>
             </tr>
          </thead>
 
@@ -23,5 +30,6 @@
             {% endfor %}
          </tbody>
       </table>
+   </div>
    </body>
 </html>
